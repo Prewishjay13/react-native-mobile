@@ -1,0 +1,2 @@
+stap 2: npx expo install react-native@0.71.8
+stap3: npx expo install react-native-web@~0.18.10 react-dom@18.2.0
