@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import {NavigationContainer} from "@react-navigation/native";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
-import Map from "./screens/MapScreen.jsx"
-import List from "./screens/List.jsx"
+import Map from "./screens/Map.jsx"
+import List from "./screens/Lists.jsx"
 import Settings from "./screens/Settings.jsx";
 import {ContentProvider} from "./providers/ContentProvider.jsx";
 import Ratings from "./screens/Ratings.jsx";
