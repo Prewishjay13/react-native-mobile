@@ -17,16 +17,16 @@ export default function Detail({route, navigation}) {
 
     /*Create an array holding title and data for a Section list.*/
     const getList = () => {
-        const beerList = [];
+        const menuList = [];
         //Get the keys to all categories in venue.beerList.
-        const categories = Object.keys(venue.beerList);
+        const categories = Object.keys(venue.menuList);
 
         categories.forEach((key) => {
             //use key as section title.
-            beerList.push({title: key, data: venue.beerList[key]});
+            menuList.push({title: key, data: venue.menuList[key]});
         });
 
-        return beerList;
+        return menuList;
     }
 
     const setRating = async (newRating) => {

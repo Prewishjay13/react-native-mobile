@@ -1,258 +1,235 @@
 [
   {
-    "label": "Witte De With",
+    "label": "Den Haag",
     "latLong": {
-      "latitude": 51.915925469994704,
-      "longitude": 4.477762127342756
-    },
+      "latitude": 52.08129535744295,
+      "longitude": 4.324138190235341
+    }, 
     "venues": [
       {
-        "venue": "Proeflokaal Reijngoud",
+        "venue": "Warung Mini XL",
         "latLong": {
-          "latitude": 51.91651799148462,
-          "longitude": 4.480254111998369
-        },
-        "beerList": {
-          "Pilsner": [
-            "Becks",
-            "Carlsberg",
-            "Stella Artois",
-            "Warsteiner"
+          "latitude": 52.07585409182598,
+          "longitude": 4.3176801183810065
+        }, 
+        "menuList": {
+          "Main": [
+            "Roti",
+            "Nasi",
+            "Bami",
+            "Teloh"
           ],
-          "Blond": [
-            "Barbar",
-            "Saison Dupont",
-            "Viven Blond",
-            "Lamme Goedzak"
+          "Side": [
+            "Saoto",
+            "Sate"
           ],
-          "Wit": [
-            "Vedett Extra White",
-            "ij wit",
-            "Schelde Brouwerij",
-            "Weihenstephaner Hefe Weissbier"
+          "Snacks": [
+            "Broodjes",
+            "Bakabana",
+            "Bara"
           ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
+          "Drinks": [
+            "Frisdranken",
+            "Dawet",
+            "Bier",
+            "Water"
           ]
         }
       },
       {
-        "venue": "Bierboutique",
+        "venue": "Kfc",
         "latLong": {
-          "latitude": 51.91576735273398,
-          "longitude": 4.477665713446169
+          "latitude": 52.07897851323278, 
+          "longitude": 4.314177630519459
         },
-        "beerList": {
-          "Pilsner": [
-            "Sol",
-            "Desperados",
-            "Birra Moretti",
-            "Heineken"
+        "menuList": {
+          "Main": [
+            "9pc tenders",
+            "12pc drumsticks",
+            "20pc mixed",
+            "15pc wings"
           ],
-          "Blond": [
-            "Barbar",
-            "Duvel",
-            "Brugse Zot",
+          "Side": [
+            "3pc meal",
+            "2pc meal",
+            "Burger box",
             "Delirium Tremens"
           ],
-          "Wit": [
-            "Vedett Wit",
-            "Weihenstephaner Hefe Weissbier",
-            "Paulaner Hefe",
-            "Great White"
+          "Snacks": [
+            "Small",
+            "Medium",
+            "Large",
+            "Extra large"
           ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
+          "Drinks": [
+          "Frisdrankjes",
+          "Water"
           ]
         }
       },
       {
-        "venue": "Wunderbar",
+        "venue": "Fatkee",
         "latLong": {
-          "latitude": 51.91586661891848,
-          "longitude": 4.47645335500504
+          "latitude": 52.07612023236068,
+          "longitude": 4.313434503040884
         },
-        "beerList": {
-          "Pilsner": [
-            "Becks",
-            "Carlsberg",
-            "Stella Artois",
-            "Warsteiner"
-          ],
-          "Blond": [
-            "Barbar",
-            "Saison Dupont",
-            "Viven Blond",
-            "Lamme Goedzak"
-          ],
-          "Wit": [
-            "Vedett Extra White",
-            "ij wit",
-            "Schelde Brouwerij",
-            "Weihenstephaner Hefe Weissbier"
-          ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
-          ]
+        "menuList": {
+          "Main": [
+              "kip peper",
+              "tjop tjoy",
+              "mihoen",
+              "varkensvlees"
+            ],
+            "Side": [
+              "nasi",
+              "noodles",
+              "loempia"
+            ],
+            "Snacks": [
+              "kroepoek",
+              "Medium",
+              "Large",
+              "Extra large"
+            ],
+            "Drinks": [
+            "thee",
+            "Water",
+            "frisdrank",
+            "whiskey",
+            "bier"
+            ]
         }
       }
     ]
   },
   {
-    "label": "Nieuwe Binneweg",
+    "label": "Rotterdam",
     "latLong": {
-      "latitude": 51.916845502842605,
-      "longitude": 4.471981284263011
+      "latitude": 51.915890591176016, 
+      "longitude": 4.477390670023898
     },
     "venues": [
       {
-        "venue": "Stalles",
+        "venue": "Warung Mini XL",
         "latLong": {
-          "latitude": 51.916995068604265,
-          "longitude": 4.472031464585654
-        },
-        "beerList": {
-          "Pilsner": [
-            "Becks",
-            "Carlsberg",
-            "Stella Artois",
-            "Warsteiner"
+          "latitude": 52.07585409182598,
+          "longitude": 4.3176801183810065
+        }, 
+        "menuList": {
+          "Main": [
+            "Roti",
+            "Nasi",
+            "Bami",
+            "Teloh"
           ],
-          "Blond": [
-            "Barbar",
-            "Saison Dupont",
-            "Viven Blond",
-            "Lamme Goedzak"
+          "Side": [
+            "Saoto",
+            "Sate"
           ],
-          "Wit": [
-            "Vedett Extra White",
-            "ij wit",
-            "Schelde Brouwerij",
-            "Weihenstephaner Hefe Weissbier"
+          "Snacks": [
+            "Broodjes",
+            "Bakabana",
+            "Bara"
           ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
+          "Drinks": [
+            "Frisdranken",
+            "Dawet",
+            "Bier",
+            "Water"
           ]
         }
       },
       {
-        "venue": "Bar 3",
+        "venue": "Kfc",
         "latLong": {
-          "latitude": 51.91694295519456,
-          "longitude": 4.471847733273226
+          "latitude": 51.92037739808921,  
+          "longitude": 4.468854590801423
         },
-        "beerList": {
-          "Pilsner": [
-            "Sol",
-            "Desperados",
-            "Birra Moretti",
-            "Heineken"
+        "menuList": {
+          "Main": [
+            "9pc tenders",
+            "12pc drumsticks",
+            "20pc mixed",
+            "15pc wings"
           ],
-          "Blond": [
-            "Barbar",
-            "Duvel",
-            "Brugse Zot",
+          "Side": [
+            "3pc meal",
+            "2pc meal",
+            "Burger box",
             "Delirium Tremens"
           ],
-          "Wit": [
-            "Vedett Wit",
-            "Weihenstephaner Hefe Weissbier",
-            "Paulaner Hefe",
-            "Great White"
+          "Snacks": [
+            "Small",
+            "Medium",
+            "Large",
+            "Extra large"
           ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
+          "Drinks": [
+          "Frisdrankjes",
+          "Water"
           ]
         }
       },
       {
-        "venue": "Rotown",
+        "venue": "Takumi",
         "latLong": {
-          "latitude": 51.91690986728398,
-          "longitude": 4.471704235094905
+          "latitude": 51.921420392712314, 
+          "longitude": 4.4702064558556405
         },
-        "beerList": {
-          "Pilsner": [
-            "Becks",
-            "Carlsberg",
-            "Stella Artois",
-            "Warsteiner"
-          ],
-          "Blond": [
-            "Barbar",
-            "Saison Dupont",
-            "Viven Blond",
-            "Lamme Goedzak"
-          ],
-          "Wit": [
-            "Vedett Extra White",
-            "ij wit",
-            "Schelde Brouwerij",
-            "Weihenstephaner Hefe Weissbier"
-          ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
-          ]
+        "menuList": {
+          "Main": [
+              "9pc tenders",
+              "12pc drumsticks",
+              "20pc mixed",
+              "15pc wings"
+            ],
+            "Side": [
+              "3pc meal",
+              "2pc meal",
+              "Burger box",
+              "Delirium Tremens"
+            ],
+            "Snacks": [
+              "Small",
+              "Medium",
+              "Large",
+              "Extra large"
+            ],
+            "Drinks": [
+            "Frisdrankjes",
+            "Water"
+            ]
         }
-      }
-    ]
-  },
-  {
-    "label": "Hofplein",
-    "latLong": {
-      "latitude": 51.92439762251367,
-      "longitude": 4.477750216153352
-    },
-    "venues": [
+      },
       {
-        "venue": "Biergarten",
+        "venue": "Takumi blaak",
         "latLong": {
-          "latitude": 51.925526133490415,
-          "longitude": 4.4762941350432435
+          "latitude": 51.920569556057025, 
+          "longitude": 4.486554625175337
         },
-        "beerList": {
-          "Pilsner": [
-            "Becks",
-            "Carlsberg",
-            "Stella Artois",
-            "Warsteiner"
-          ],
-          "Blond": [
-            "Barbar",
-            "Saison Dupont",
-            "Viven Blond",
-            "Lamme Goedzak"
-          ],
-          "Wit": [
-            "Vedett Extra White",
-            "ij wit",
-            "Schelde Brouwerij",
-            "Weihenstephaner Hefe Weissbier"
-          ],
-          "Dubbel": [
-            "Brugse Zot Dubbel",
-            "Gouden Carolus Classic",
-            "Kasteel Donker",
-            "Ramses Geile Bever"
-          ]
+        "menuList": {
+          "Main": [
+              "9pc tenders",
+              "12pc drumsticks",
+              "20pc mixed",
+              "15pc wings"
+            ],
+            "Side": [
+              "3pc meal",
+              "2pc meal",
+              "Burger box",
+              "Delirium Tremens"
+            ],
+            "Snacks": [
+              "Small",
+              "Medium",
+              "Large",
+              "Extra large"
+            ],
+            "Drinks": [
+            "Frisdrankjes",
+            "Water"
+            ]
         }
       }
     ]
