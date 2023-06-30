@@ -5,9 +5,9 @@
       "latitude": 52.08129535744295,
       "longitude": 4.324138190235341
     }, 
-    "venues": [
+    "restaurants": [
       {
-        "venue": "Warung Mini XL",
+        "restaurant": "Warung Mini XL",
         "latLong": {
           "latitude": 52.07585409182598,
           "longitude": 4.3176801183810065
@@ -37,7 +37,7 @@
         }
       },
       {
-        "venue": "Kfc",
+        "restaurant": "Kfc",
         "latLong": {
           "latitude": 52.07897851323278, 
           "longitude": 4.314177630519459
@@ -68,7 +68,7 @@
         }
       },
       {
-        "venue": "Fatkee",
+        "restaurant": "Fatkee",
         "latLong": {
           "latitude": 52.07612023236068,
           "longitude": 4.313434503040884
@@ -108,9 +108,9 @@
       "latitude": 51.915890591176016, 
       "longitude": 4.477390670023898
     },
-    "venues": [
+    "restaurants": [
       {
-        "venue": "Warung Mini XL",
+        "restaurant": "Warung Mini XL",
         "latLong": {
           "latitude": 52.07585409182598,
           "longitude": 4.3176801183810065
@@ -140,7 +140,7 @@
         }
       },
       {
-        "venue": "Kfc",
+        "restaurant": "Kfc",
         "latLong": {
           "latitude": 51.92037739808921,  
           "longitude": 4.468854590801423
@@ -171,7 +171,7 @@
         }
       },
       {
-        "venue": "Takumi",
+        "restaurant": "Takumi",
         "latLong": {
           "latitude": 51.921420392712314, 
           "longitude": 4.4702064558556405
@@ -202,7 +202,7 @@
         }
       },
       {
-        "venue": "Takumi blaak",
+        "restaurant": "Takumi blaak",
         "latLong": {
           "latitude": 51.920569556057025, 
           "longitude": 4.486554625175337

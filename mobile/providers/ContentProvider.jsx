@@ -27,22 +27,3 @@ export function ContentProvider({children}) {
         </ContentContext.Provider>
     )
 }
-
-// import Data from "../assets/hotspots.json";
-
-// export const ContentContext = createContext();
-
-// export function ContentProvider({ children }) {
-//   const [content, setContent] = useState({});
-//   useEffect(() => {
-//     // Bij het laden van de component, stel de animeData in als content
-//     setContent(Data);
-//   }, []);
-
-//   return (
-//     <ContentContext.Provider value={content}>
-//       {/* Controleer of content is geladen voordat de kindcomponenten worden gerenderd */}
-//       {Object.keys(content).length > 0 ? children : <Text>Loading</Text>}
-//     </ContentContext.Provider>
-//   );
-// }

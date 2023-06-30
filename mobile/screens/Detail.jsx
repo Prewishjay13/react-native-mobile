@@ -7,23 +7,25 @@ import {useStyle} from "../providers/StyleProvider.jsx";
 export default function Detail({route, navigation}) {
     const [starRating, setStarRating] = useState(null);
     const ratingOptions = [1, 2, 3, 4, 5];
-    const venue = route.params;
+    const restaurant = route.params;
     const {styleSheet} = useStyle();
 
     useEffect(() => {
-        navigation.setOptions({title: venue.venue});
+        navigation.setOptions({title: restaurant.restaurant});
         getRating();
     }, []);
 
-    /*Create an array holding title and data for a Section list.*/
+    //maak een array met de titels en data voor een sectie dat weergegeven zal worden
     const getList = () => {
         const menuList = [];
-        //Get the keys to all categories in venue.beerList.
-        const categories = Object.keys(venue.menuList);
+
+        //menuList bestaat uit categories
+        //haal alle keys op van de categories in restaurant.menuList.
+        const categories = Object.keys(restaurant.menuList);
 
         categories.forEach((key) => {
-            //use key as section title.
-            menuList.push({title: key, data: venue.menuList[key]});
+            //gebruik de opgehaalde keys als titels voor de section
+            menuList.push({title: key, data: restaurant.menuList[key]});
         });
 
         return menuList;
@@ -32,7 +34,7 @@ export default function Detail({route, navigation}) {
     const setRating = async (newRating) => {
         const json = JSON.stringify(newRating);
         try {
-            await AsyncStorage.setItem(venue.venue, json);
+            await AsyncStorage.setItem(restaurant.restaurant, json);
             setStarRating(newRating);
         } catch (e) {
             console.error(e);
@@ -40,7 +42,7 @@ export default function Detail({route, navigation}) {
     }
     const getRating = async () => {
         try {
-            const json = await AsyncStorage.getItem(venue.venue);
+            const json = await AsyncStorage.getItem(restaurant.restaurant);
             setStarRating(json != null ? JSON.parse(json) : 0);
         } catch (e) {
             console.error(e);

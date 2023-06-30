@@ -1,4 +1,4 @@
-import {Button, Dimensions, StyleSheet, View} from "react-native";
+import {Dimensions, StyleSheet, View} from "react-native";
 import MapView, {Marker} from "react-native-maps";
 import {useContext, useEffect, useState} from "react";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
@@ -25,24 +25,24 @@ export default function Map({route}) {
 function MapScreen({route, navigation}) {
     const hotspots = useContext(ContentContext);
 
-    //useEffect to get users permission to use location.
+    //useEffect toestemming te vragen aan de gebruiker voor gebruik te maken van locatie en map
     useEffect(() => {
         requestPermission();
     }, []);
 
-    //puts all venues in one array to create markers with them
+    //zet alle opgeslagen plekken in een array om op de map weer te geven
     const getVenues = () => {
-        const venues = [];
+        const restaurants = [];
 
-        //loop through all hotspots
+        //loopt door alle hotspots heen
         hotspots.forEach((hotspot) => {
-            //then loop through all venues
-            hotspot.venues.forEach((venue) => {
-                //push the venue into the venues array
-                venues.push(venue);
+            //then loop through all restaurants
+            hotspot.restaurants.forEach((restaurant) => {
+                //push the restaurant into the restaurants array
+                restaurants.push(restaurant);
             });
         });
-        return venues
+        return restaurants
     }
 
     const requestPermission = async () => {
@@ -71,14 +71,14 @@ function MapScreen({route, navigation}) {
                      customMapStyle={hideAndroidPOI}
                      showsUserLocation={true}
             >
-                {getVenues().map((venue, index) => {
+                {getVenues().map((restaurant, index) => {
                     return (
                         <Marker onCalloutPress={() => {
-                            navigation.navigate("Detail", venue)
+                            navigation.navigate("Detail", restaurant)
                         }}
                                 key={index}
-                                title={venue.venue}
-                                coordinate={venue.latLong}
+                                title={restaurant.restaurant}
+                                coordinate={restaurant.latLong}
                         />
                     )
                 })}

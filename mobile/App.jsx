@@ -1,18 +1,22 @@
+//import libraries voor het maken en instellen van navigatie op de app
 import {NavigationContainer} from "@react-navigation/native";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
+
+//import alle paginas waar er naar navigeert gaat worden zodat het naar de componenten geroute kan worden
 import Map from "./screens/Map.jsx"
 import List from "./screens/Lists.jsx"
 import Settings from "./screens/Settings.jsx";
 import {ContentProvider} from "./providers/ContentProvider.jsx";
 import Ratings from "./screens/Ratings.jsx";
 import {StyleProvider, useStyle} from "./providers/StyleProvider.jsx";
-//import {useEffect} from "react";
+
 
 export default function App() {
 
     const Tab = createBottomTabNavigator();
 
     return (
+        //wrapp alles in de contentprovidertag zodat het applicatie alle data ophaalt en meegeeft aan de map en de styling erover heen geplaatst wordt
         <ContentProvider>
             <StyleProvider>
                 <NavigationContainer>

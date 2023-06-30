@@ -24,13 +24,13 @@ export default function List() {
 function ListScreen({navigation}) {
     const hotspots = useContext(ContentContext);
     const {styleSheet} = useStyle();
-    /*Returns an array holding objects that contain the title and data for a Section list.*/
+    // returnt een array met objecten deze objecten hebben de titel en data voor een lijst
     const getList = () => {
         const hotspotList = []
-        //loop through all hotspots
+        //loopt through alle hotspots in de api 
         hotspots.map((hotspot) => {
-            //push object holding title and date into hotspotList array.
-            hotspotList.push({title: hotspot.label, data: hotspot.venues})
+            //pusht de objecten met de titele en data in de hotspotList array.
+            hotspotList.push({title: hotspot.label, data: hotspot.restaurants})
         });
 
         return hotspotList;
@@ -52,12 +52,12 @@ function ListScreen({navigation}) {
                                 //Then from the parent navigator we must pass params to nested navigator in Map.
                                   onLongPress={() => {
                                       navigation.getParent().navigate("Map", {
-                                          screen: "MapScreen",
+                                          screen: "Map",
                                           params: item.latLong
                                       })
                                   }}
                             >
-                                {item.venue}
+                                {item.restaurant}
                             </Text>
                         </View>}
                 renderSectionHeader={({section}) => <Text style={styleSheet.sectionHeader}>{section.title}</Text>}

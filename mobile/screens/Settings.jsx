@@ -1,7 +1,7 @@
 import React from "react";
 import {Button, View} from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import {StyleContext, useStyle, useToggleStyle} from "../providers/StyleProvider.jsx";
+import {useStyle, useToggleStyle} from "../providers/StyleProvider.jsx";
 
 export default function Settings() {
     const {styleSheet} = useStyle();
