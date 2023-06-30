@@ -19,11 +19,11 @@ export default function Ratings({navigation}) {
 
     const getStoredRatings = async () => {
         try {
-            //Get all keys using AsyncStorage.getAllKeys().
+            //hall alle keys op met AsyncStorage.getAllKeys().
             const keys = await AsyncStorage.getAllKeys();
-            //Use keys to request all stored ratings.
+            //gebruik de keys om alle opgeslagen ratings op te vragen.
             const storedRatings = await AsyncStorage.multiGet(keys);
-            //res array consists of ['key', 'value']. Value needs to be parsed.
+            //array bevat['key', 'value']. Value moet worden geparsed.
             const parsedRatings = storedRatings.map((keyValue) => {
                 return {
                     venue: keyValue[0],
@@ -37,7 +37,7 @@ export default function Ratings({navigation}) {
     }
     const findLatLong = (key) => {
         let latLong
-        //use foreach to loop through hotspots.
+        //for each loop om door de hotspots heen te loopen
         hotspots.forEach((hotspot) => {
             //use find to loop through venues.
             const FOUND = hotspot.venues.find((venue) => {
@@ -45,7 +45,7 @@ export default function Ratings({navigation}) {
                     return true
                 }
             });
-            //when venue is found grab the latLong
+            //pak de locatie als de restaurant gevonden is
             if (FOUND !== undefined) {
                 latLong = FOUND.latLong;
             }
